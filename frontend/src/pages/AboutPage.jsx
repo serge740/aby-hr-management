@@ -163,7 +163,7 @@ export default function AboutPage() {
       
       {/* Company Overview */}
       <section className="py-20 bg-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
@@ -190,11 +190,11 @@ export default function AboutPage() {
                 ))}
               </div>
             </div>
-            <div className="relative">
+            <div className="relative w-full xl:w-11/12">
               <img 
                 src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop" 
                 alt="Team collaboration"
-                className="rounded-2xl shadow-2xl"
+                className="rounded-2xl shadow-2xl w-full"
               />
               <div className="absolute -bottom-6 -right-6 bg-primary-600 text-white p-6 rounded-lg shadow-lg">
                 <Globe className="w-8 h-8 mb-2" />
@@ -207,7 +207,7 @@ export default function AboutPage() {
 
       {/* Mission & Vision */}
       <section className="py-20 bg-gradient-to-r from-primary-50 to-primary-100">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
             <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="text-primary-600 mb-4">
@@ -236,7 +236,7 @@ export default function AboutPage() {
 
       {/* Values Section */}
       <section className="py-20 bg-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h3 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Our Core Values</h3>
             <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
@@ -263,7 +263,7 @@ export default function AboutPage() {
 
       {/* Timeline Section */}
       <section className="py-20 bg-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h3 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Our Journey</h3>
             <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">

@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
- primary: {
-          50:  '#fff3e6', // very light orange tint
+        primary: {
+          50: '#fff3e6', // very light orange tint
           100: '#ffe0bf',
           200: '#ffc680',
           300: '#ffa94d',
@@ -24,7 +24,7 @@ module.exports = {
         red: {
           50: '#fef2f2',
           100: '#fee2e2',
-          200: '#fecaca', 
+          200: '#fecaca',
           300: '#fca5a5',
           400: '#f87171',
           500: '#ef4444',

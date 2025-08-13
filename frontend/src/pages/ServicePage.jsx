@@ -139,7 +139,7 @@ export default function ServicesPage() {
 
       {/* Services Section */}
       <section id="services" className="py-20 bg-white">
-        <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h1 className="text-5xl font-bold bg-gradient-to-r from-gray-800 via-primary-500 to-gray-800 bg-clip-text text-transparent mb-4">
               Our HR Services

@@ -144,7 +144,7 @@ export default function HRContactPage() {
        
       />
       
-      <div className="w-10/12 mx-auto px-4 sm:px-6 lg:px-8 relative py-5">
+      <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8 relative py-5">
         <div className="text-center mb-16">
           <h1 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-gray-800 via-primary-500 to-gray-800 bg-clip-text text-transparent mb-6">
             Contact Human Resources
@@ -174,7 +174,7 @@ export default function HRContactPage() {
 
       {/* Contact Methods */}
       <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h3 className="text-4xl font-bold text-gray-900 mb-4">Choose Your Preferred Way</h3>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -213,7 +213,7 @@ export default function HRContactPage() {
 
       {/* Contact Form & Offices Section */}
       <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <div className="bg-white rounded-2xl shadow-xl p-8">

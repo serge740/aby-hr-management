@@ -192,7 +192,7 @@ export default function HRFeaturesPage() {
 
       {/* Overview Stats */}
       <section className="py-12 relative">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-6">
             <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
               <div className="text-3xl font-bold text-primary-600 mb-2">8+</div>
@@ -216,7 +216,7 @@ export default function HRFeaturesPage() {
 
       {/* Key Features */}
       <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose Our HR System?</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -240,7 +240,7 @@ export default function HRFeaturesPage() {
 
       {/* Main Features Section */}
       <section className="py-20 bg-white">
-        <div className="w-full xl:w-10/12 mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Core HR Modules</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -333,7 +333,7 @@ export default function HRFeaturesPage() {
 
       {/* Integration Section */}
       <section className="py-20 bg-gradient-to-br from-primary-50 to-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Seamless Integrations</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
