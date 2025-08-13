@@ -31,10 +31,10 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
 
       <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
+        <div className="flex justify-center w-full gap-12 items-center min-h-[80vh]">
           
           {/* Left Content */}
-          <div className="space-y-8">
+          <div className="flex justify-center text-center items-center flex-col gap-10">
             <div className="space-y-6">
               {/* Badge */}
               <div className="inline-flex items-center gap-2 bg-gradient-to-r from-primary-100/50 to-primary-200/50 backdrop-blur-sm border border-primary-300/50 text-primary-600 px-6 py-3 rounded-full text-sm font-medium">
@@ -48,18 +48,17 @@ const HeroSection = () => {
                 <span className="bg-gradient-to-r from-gray-800 via-primary-500 to-gray-800 bg-clip-text text-transparent">
                   Streamline Your
                 </span>
-                <br />
+                {' '}
                 <span className="bg-gradient-to-r from-primary-400 via-primary-600 to-primary-400 bg-clip-text text-transparent animate-pulse">
                   HR Operations
-                </span>
-                <br />
+                </span>  <br />
                 <span className="bg-gradient-to-r from-gray-800 via-primary-500 to-gray-800 bg-clip-text text-transparent">
                   with ABY System
                 </span>
               </h1>
               
               {/* Description */}
-              <p className="text-lg text-gray-600 leading-relaxed max-w-xl">
+              <p className="text-lg text-gray-600 leading-relaxed max-w-3xl ">
                 Transform your human resource management with our comprehensive platform. From employee onboarding to payroll processing, manage your workforce efficiently and effectively.
               </p>
             </div>
@@ -94,54 +93,14 @@ const HeroSection = () => {
               ))}
             </div>
           </div>
+{/*
 
-          {/* Right Visual */}
-          <div className="relative w-full md:w-10/12">
-            {/* Main HR Dashboard Image */}
-            <div className="relative z-20 w-full">
-              <div className="relative group w-full">
-                <img 
-                  src="https://images.unsplash.com/photo-1556157382-97eda2d62296" 
-                  alt="HR Management Dashboard"
-                  className="rounded-3xl shadow-2xl shadow-primary-500/25 transform group-hover:scale-105 w-full transition-transform duration-700"
-                />
-                
-                {/* Glow effect */}
-                <div className="absolute inset-0 bg-gradient-to-r from-primary-500/20 to-primary-600/20 rounded-3xl blur-xl -z-10 group-hover:blur-2xl transition-all duration-700"></div>
-                
-                {/* Interactive overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-primary-900/30 to-transparent rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center p-6">
-                  <button className="bg-primary-500/20 backdrop-blur-sm text-white px-4 py-2 rounded-lg flex items-center gap-2 hover:bg-primary-500/30 transition-colors">
-                    <Play size={16} />
-                    View Dashboard
-                  </button>
-                </div>
-              </div>
-            </div>
 
-            {/* Floating Info Cards */}
-            <div className="absolute -top-8 -right-8 z-30">
-              <div className="bg-gradient-to-r from-primary-500 to-primary-600 text-white p-6 rounded-2xl shadow-2xl shadow-primary-500/25 animate-float delay-1000">
-                <div className="flex items-center gap-2 mb-2">
-                  <Users className="animate-pulse text-primary-200" size={20} />
-                  <span className="text-sm font-medium">Active Users</span>
-                </div>
-                <div className="text-2xl font-bold">2,547</div>
-                <div className="text-xs opacity-90">Online Now</div>
-              </div>
-            </div>
-            
-            <div className="absolute -bottom-8 -left-8 z-30">
-              <div className="bg-gradient-to-r from-green-500 to-green-600 text-white p-6 rounded-2xl shadow-2xl shadow-green-500/25 animate-float delay-1500">
-                <div className="flex items-center gap-2 mb-2">
-                  <Zap className="animate-pulse text-green-200" size={20} />
-                  <span className="text-sm font-medium">Efficiency</span>
-                </div>
-                <div className="text-2xl font-bold">97%</div>
-                <div className="text-xs opacity-90">Process Automation</div>
-              </div>
-            </div>
-          </div>
+
+
+
+
+*/}
         </div>
       </div>
 

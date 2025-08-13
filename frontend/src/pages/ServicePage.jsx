@@ -257,24 +257,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-primary-600 to-primary-700">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h3 className="text-4xl font-bold text-white mb-6">Ready to Transform Your HR Operations?</h3>
-          <p className="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
-            Get started with ABY HR Management today and experience the difference our comprehensive solutions can make
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center gap-2">
-              <Phone className="w-5 h-5" />
-              Schedule Demo
-            </button>
-            <button className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors">
-              View Pricing
-            </button>
-          </div>
-        </div>
-      </section>
+      
     </div>
   );
 }
