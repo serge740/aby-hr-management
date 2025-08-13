@@ -374,70 +374,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="py-20 bg-gradient-to-r from-orange-50 to-orange-100">
-        <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div 
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={containerVariants}
-            className="text-center mb-16"
-          >
-            <motion.h3 
-              variants={itemVariants}
-              className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4"
-            >
-              Meet Our Team
-            </motion.h3>
-            <motion.p 
-              variants={itemVariants}
-              className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto"
-            >
-              The passionate professionals behind ABY HR Management
-            </motion.p>
-          </motion.div>
-
-          <motion.div 
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={containerVariants}
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
-          >
-            {teamMembers.map((member, index) => (
-              <motion.div 
-                key={index}
-                variants={itemVariants}
-                whileHover={{ 
-                  y: -10,
-                  rotateY: 10
-                }}
-                className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300"
-              >
-                <motion.div 
-                  whileHover={{ scale: 1.1, rotate: 5 }}
-                  className={`w-20 h-20 bg-gradient-to-br ${member.gradient} rounded-full flex items-center justify-center mx-auto mb-4`}
-                >
-                  <span className="text-2xl font-bold text-white">
-                    {member.name.split(' ').map(n => n[0]).join('')}
-                  </span>
-                </motion.div>
-                <h4 className="text-xl font-bold text-gray-900 mb-2 text-center">{member.name}</h4>
-                <p className="text-orange-600 font-medium text-center mb-2">{member.position}</p>
-                <div className="text-center mb-4">
-                  <span className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-orange-100 text-orange-700">
-                    <Clock className="w-4 h-4 mr-1" />
-                    {member.experience}
-                  </span>
-                </div>
-                <p className="text-sm text-gray-600 text-center mb-3">{member.specialization}</p>
-                <p className="text-sm text-gray-500 text-center">{member.description}</p>
-              </motion.div>
-            ))}
-          </motion.div>
-        </div>
-      </section>
+    
 
       {/* Timeline Section */}
       <section className="py-20 bg-white">
